@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <style>
+      /** Demo styles **/
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      body {
+        background: #000;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+        overflow: hidden;
+      }
+
+      /** Swiper styles **/
+
+      .swiper {
+        user-select: none;
+        box-sizing: border-box;
+        overflow: visible;
+        width: 100%;
+
+        height: 100%;
+
+        padding: 0px 0px;
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+
+        background-color: rgba(51, 51, 51, 1);
+
+        border-radius: 0px;
+      }
+
+      .swiper-slide-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+        box-sizing: border-box;
+        padding: 48px 48px;
+
+        align-items: center;
+        justify-content: flex-end;
+        text-align: center;
+      }
+
+      .swiper-slide-text {
+        max-width: 640px;
+        font-size: 14px;
+        line-height: 1.4;
+        transform-origin: center bottom;
+        color: rgba(255, 255, 255, 1);
+      }
+
+      .swiper-slide-image {
+        position: absolute;
+        object-fit: cover;
+
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+
+        z-index: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/01.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/02.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/03.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/04.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/05.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/06.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/07.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/08.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/09.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/10.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/11.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide-image"
+            src="https://studio.swiperjs.com/demo-images/nature/12.jpg"
+          />
+
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-text">Name Name</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 37,
+        grabCursor: true,
+        pagination: { type: "progressbar", el: ".swiper-pagination" },
+        freeMode: { enabled: true },
+        keyboard: { enabled: true },
+        watchSlidesProgress: true,
+        observer: true,
+        observeParents: true,
+        threshold: 5,
+        slidesPerGroupAuto: false,
+      });
+    </script>
+  </body>
+</html>
